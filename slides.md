@@ -41,11 +41,11 @@ image: https://cover.sli.dev
 
 # Databases and SQL
 
+## SQL
 
-<br>
-<br>
+SQL is a standard language for storing, manipulating and retrieving data in databases.
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+We investigated SQL at a theoretical level during StepUp, and now we will learn how to use SQL in practice.
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -62,6 +62,29 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+h2 {
+  color: #2B90B6;
+  font-weight: bold;
+}
+
+  p{
+    font-size: 150%;
+    line-height: 1.2em;
+  }
 </style>
 
-<PoweredBySlidev mt-10 />
+---
+layout: 
+---
+
+## GitHub CodeSpaces
+
+We are using GitHub CodeSpaces to run our SQL exercises, using a database system called **DuckDB** in a **Jupyter notebook**. 
+
+To access the SQL exercises, you will need to:
+
+- Sign up for a GitHub account (if you don't have one already)
+- Accept the invitation to the GitHub Classroom assignment (link is on Compass)
+- Open the assignment in GitHub Classroom
+- Click on the link to open the assignment in GitHub CodeSpaces
