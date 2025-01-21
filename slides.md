@@ -6,6 +6,7 @@ theme: default
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
+paginate: true
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
