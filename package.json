@@ -6,7 +6,9 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
-    "eject": "slidev theme eject"
+    "eject": "slidev theme eject",
+    "format": "slidev format",
+    "log": "slidev open --log 'info'"
   },
   "dependencies": {
     "@slidev/cli": "^51.0.2",
