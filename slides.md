@@ -5,13 +5,10 @@ theme: default
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Data Analytics Slides
+title: Data Analytics
+title-template: "{title} - Heathmont College"
 paginate: true
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
 
-  Learn more at [Sli.dev](https://sli.dev)
 # apply unocss classes to the current slide
 # class: text-center
 # https://sli.dev/features/drawing
@@ -76,7 +73,7 @@ h2 {
 </style>
 
 ---
-layout: 
+layout: full
 ---
 
 ## GitHub CodeSpaces
@@ -89,3 +86,25 @@ To access the SQL exercises, you will need to:
 - Accept the invitation to the GitHub Classroom assignment (link is on Compass)
 - Open the assignment in GitHub Classroom
 - Click on the link to open the assignment in GitHub CodeSpaces
+
+[width=300](assets/img/github-mark.svg)
+
+---
+layout: default
+---
+
+## Lesson 1: Intro to SQL
+
+In this lesson you: 
+
+- Create your first table
+- Insert data into the table
+- Query the table
+- Update data in the table
+
+**Important**:
+
+- Ask if things aren't clear
+- `--` are used for comments in SQL (lines that don't do anything). Some cells require you to uncomment the code to run it.
+- Commit your work when you reach a milestone
+- Help each other out
