@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: default
+theme: ./theme
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -17,7 +17,6 @@ info: |
 # https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
@@ -89,3 +88,11 @@ To access the SQL exercises, you will need to:
 - Accept the invitation to the GitHub Classroom assignment (link is on Compass)
 - Open the assignment in GitHub Classroom
 - Click on the link to open the assignment in GitHub CodeSpaces
+
+---
+layout: iframe-right
+url: https://heathmontdataanalytics.github.io/topics/databases.html
+zoom: 0.6
+---
+
+## You can always use the Website
