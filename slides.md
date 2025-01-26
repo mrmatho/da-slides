@@ -75,7 +75,7 @@ h2 {
 </style>
 
 ---
-layout: 
+layout: fact
 ---
 
 ## GitHub CodeSpaces
