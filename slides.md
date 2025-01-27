@@ -26,12 +26,10 @@ mdc: true
 
 <Toc minDept=1 maxDepth=1 columns=2 />
 
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-</div>
+---
+src: ./pages/heathos.md
+hide: false
+---
 
 ---
 transition: fade-out
@@ -96,3 +94,5 @@ zoom: 0.6
 ---
 
 ## You can always use the Website
+
+---
