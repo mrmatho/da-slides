@@ -23,9 +23,10 @@
     "defaults": {
       "fonts": {
         "mono": "Fira Code",
-        "sans": "Avenir Next,Nunito Sans",
+        "sans": "Avenir Next",
         "local": "Avenir Next"
-      }
+      },
+      "transition": "slide-left"
     }
   },
   "dependencies": {

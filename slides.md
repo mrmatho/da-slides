@@ -73,7 +73,8 @@ h2 {
 </style>
 
 ---
-layout: fact
+layout: quote
+class: steps
 ---
 
 ## GitHub CodeSpaces
@@ -82,10 +83,16 @@ We are using GitHub CodeSpaces to run our SQL exercises, using a database system
 
 To access the SQL exercises, you will need to:
 
-- Sign up for a GitHub account (if you don't have one already)
-- Accept the invitation to the GitHub Classroom assignment (link is on Compass)
-- Open the assignment in GitHub Classroom
-- Click on the link to open the assignment in GitHub CodeSpaces
+<img src="/img/github-mark.png" alt="GitHub" style="width: 250px; float:right;"/>
+
+1. Sign up for a GitHub account (if you don't have one already)
+2. Accept the invitation to the GitHub Classroom assignment (link is on Compass)
+3. Open the assignment in GitHub Classroom
+4. Click on the link to open the assignment in GitHub CodeSpaces
+
+
+
+Hopefully most of the steps are relatively well explained in the notebook, but make sure you ***ask questions*** if you are not sure.
 
 ---
 layout: iframe-right
