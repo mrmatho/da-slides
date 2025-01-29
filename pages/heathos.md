@@ -21,3 +21,13 @@ hideInToc: true
 ## *Routine*
 
 ## How do we start each class?
+
+---
+transition: slide-left
+layout: statement
+hideInToc: true
+---
+
+# Heathos
+
+## What are you expected to do at home between classes?
