@@ -90,6 +90,35 @@ hideInToc: true
 # SQL Basics
 
 ```sql {1|2|3}
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+   ....
+);
+```
+---
+layout: full
+transition: fade
+hideInToc: true
+zoom: 1.3
+---
+
+# SQL Basics
+
+```sql {3|1|2|3}
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
+```
+---
+layout: full
+transition: fade
+hideInToc: true
+zoom: 1.3
+---
+
+# SQL Basics
+
+```sql {4|1|2|3}
 
 SELECT column1, column2, ...
 FROM table_name
@@ -97,3 +126,26 @@ WHERE condition;
 
 ```
 
+---
+layout: two-cols
+transition: fade
+hideInToc: true
+zoom: 1.3
+---
+
+# SQL Basics
+
+```sql {1|2|3}
+
+SELECT a.column1, b.column2, ...
+FROM table1 a, table2 b
+WHERE a.common_field = b.common_field;
+
+```
+:: right ::
+```sql {1|2|3}
+SELECT a.column1, b.column2, ...
+FROM table1 a
+INNER JOIN table2 b
+ON a.common_field = b.common_field;
+```
