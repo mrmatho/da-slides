@@ -85,6 +85,7 @@ zoom: 0.6
 layout: full
 transition: fade
 hideInToc: true
+zoom: 1.5
 ---
 
 # SQL Basics
@@ -100,7 +101,7 @@ CREATE TABLE table_name (
 layout: full
 transition: fade
 hideInToc: true
-zoom: 1.3
+zoom: 1.5
 ---
 
 # SQL Basics
@@ -113,7 +114,7 @@ VALUES (value1, value2, ...);
 layout: full
 transition: fade
 hideInToc: true
-zoom: 1.3
+zoom: 1.5
 ---
 
 # SQL Basics
@@ -130,7 +131,7 @@ WHERE condition;
 layout: two-cols
 transition: fade
 hideInToc: true
-zoom: 1.3
+zoom: 1.5
 ---
 
 # SQL Basics
