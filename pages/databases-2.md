@@ -220,3 +220,22 @@ An outer join returns **all rows from one table**, and the matched rows from the
 - **FULL JOIN:** returns all rows when there is a match in either table.
 
 ---
+layout: default
+hideInToc: true
+---
+# Practice
+1. Create a new database called `store.db` in the SQLite DB Browser and create the following tables:
+    - `customers` with columns `customer_id`, `name`, and `email`
+    - `orders` with columns `order_id`, `customer_id`, `product_id`, and `quantity`
+    - `products` with columns `product_id`, `name`, and `price`
+
+2. Insert some data into these tables:
+    - Insert at least 3 customers
+    - Insert at least 5 products
+    - Insert at least 10 orders
+
+3. Write SQL queries to:
+    - Return the names of all customers who have placed an order
+    - Calculate the total amount spent by each customer
+
+
