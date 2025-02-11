@@ -236,6 +236,6 @@ hideInToc: true
 
 3. Write SQL queries to:
     - Return the names of all customers who have placed an order
-    - Calculate the total amount spent by each customer
+    - Calculate the total amount charged for each order
 
 
