@@ -7,6 +7,7 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
 transition: slide-left
+selectable: true
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
@@ -27,6 +28,11 @@ hide: false
 
 ---
 src: ./pages/databases-2.md
+hide: false
+---
+
+---
+src: ./pages/spreadsheets-1.md
 hide: false
 ---
 

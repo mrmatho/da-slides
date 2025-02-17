@@ -1,5 +1,6 @@
 ---
 layout: cover
+transition: fade
 ---
 
 # Joining Tables in SQL
