@@ -8,6 +8,16 @@ background: /img/stats.webp
 # Descriptive Statistics in Spreadsheets
 
 ---
+layout: center
+---
+
+# Do Now
+
+Answer in your book
+
+One task we undertake using spreadsheets is data cleansing. Describe what data cleansing is and why it is important. *(Imagine this is a 3 mark question)*
+
+---
 layout: li
 ---
 ::li::
