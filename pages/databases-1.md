@@ -14,6 +14,7 @@ layout: li
 transition: fade-out
 layout: image-right
 image: https://cover.sli.dev
+hideInToc: false
 ---
 
 # Databases and SQL

@@ -1,6 +1,7 @@
 ---
 layout: cover
 transition: fade
+hideInToc: false
 ---
 
 # Joining Tables in SQL
@@ -77,7 +78,7 @@ The "relational" element of relational databases refers to the ability to join t
 </v-clicks>
 ---
 layout: default
-hideInToc: true
+hideInToc: false
 ---
 # Inner Joins
 

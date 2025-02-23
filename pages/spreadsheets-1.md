@@ -1,6 +1,7 @@
 ---
 layout: cover
 transition: fade
+hideInToc: false
 ---
 
 # Spreadsheets

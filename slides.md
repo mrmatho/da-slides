@@ -6,6 +6,16 @@ theme: ./theme
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
+fonts:
+  sans: Sofia Sans Condensed
+  serif: Roboto Slab
+  mono: Fira Code
+
+defaults:
+  layout: center
+  hideInToc: true
+  transition: fade
+
 transition: slide-left
 selectable: true
 # enable MDC Syntax: https://sli.dev/features/mdc
