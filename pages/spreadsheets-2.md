@@ -2,6 +2,7 @@
 layout: cover
 transition: fade
 hideInToc: false
+background: /img/stats.webp
 ---
 
 # Descriptive Statistics in Spreadsheets
@@ -117,6 +118,8 @@ Measures of spread (such as range and standard deviation) provide information ab
 - Can be affected by outliers.
 
 ---
+layout: two-cols-header
+---
 
 # Count and Sum
 
@@ -138,4 +141,25 @@ Count and sum are measures of size. Count provides the number of values in a dat
 - The total of all values in a data set.
 - Can be calculated using the `SUM` function in Excel eg. `=SUM(A1:A10)`
 - Can be used to identify the total of a data set.
+
+---
+layout: center
+---
+
+# Your Turn
+
+Answer in your book
+
+The tables below show the descriptive statistics for the number of goals scored by two football teams in each of their games across the season. Compare the two teams using the descriptive statistics provided.
+
+| Croydon City | Mitcham Monarchs |
+|--------------|------------------|
+| Mean: 2.5    | Mean: 3.0        |
+| Median: 2    | Median: 3        |
+| Min: 1       | Min: 1           |
+| Max: 4       | Max: 5           |
+| Range: 3     | Range: 4         |
+| Std Dev: 0.5 | Std Dev: 1.0     |
+| Count: 4     | Count: 5         |
+| Sum: 10      | Sum: 15          |
 
