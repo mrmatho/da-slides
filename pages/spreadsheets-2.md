@@ -163,3 +163,18 @@ The tables below show the descriptive statistics for the number of goals scored 
 | Count: 4     | Count: 5         |
 | Sum: 10      | Sum: 15          |
 
+<style>
+th {
+  background-color:rgb(164, 160, 160);
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 2px 10px;
+}
+
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 0px 10px;
+}
+
+</style>

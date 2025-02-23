@@ -7,7 +7,7 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
 fonts:
-  sans: Sofia Sans Condensed
+  sans: Barlow
   serif: Roboto Slab
   mono: Fira Code
 
