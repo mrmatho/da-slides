@@ -18,6 +18,7 @@ defaults:
 
 transition: slide-left
 selectable: true
+layout: cover
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---

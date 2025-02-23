@@ -9,13 +9,17 @@ background: /img/stats.webp
 
 ---
 layout: center
+class: text-center
+zoom: 1.4
 ---
 
 # Do Now
 
 Answer in your book
 
-One task we undertake using spreadsheets is data cleansing. Describe what data cleansing is and why it is important. *(Imagine this is a 3 mark question)*
+One task we undertake using spreadsheets is data cleansing. Describe what data cleansing is and why it is important. 
+
+*(Treat this as a 3 mark question)*
 
 ---
 layout: li
@@ -188,3 +192,10 @@ td {
 }
 
 </style>
+---
+layout: center
+---
+
+# Summarise what you learned
+
+In the provided Word document, define each of the statistics in your own words, and include an example of the formula in Excel. 
