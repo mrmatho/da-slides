@@ -154,3 +154,13 @@ td {
 ---
 layout: center
 ---
+# Your Turn
+
+Open the Lego dataset spreadsheet from the previous lesson. 
+
+1. Would you expect there to be a correlation between the year and the number of pieces in the set? Give a reason for your answer.
+2. Use Excel to calculate the correlation coefficient between the year and the number of pieces in the set.
+3. Interpret the correlation coefficient. What does it mean? Identify the strength and direction of the correlation, as well as articulating what that means in the context of the data.
+
+(10 mins)
+---
