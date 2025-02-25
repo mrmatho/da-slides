@@ -154,6 +154,31 @@ td {
 ---
 layout: center
 ---
+# Strength
+
+- The strength of a relationship between two variables is determined by the value of r.
+- Values close to 1 or -1 indicate a strong linear relationship.
+- Strength can be described as:
+  - Strong: r > 0.75 or r < -0.75
+  - Moderate: 0.5 < r < 0.75 or -0.75 < r < -0.5
+  - Weak: 0.25 < r < 0.5 or -0.25 > r > -0.5
+  - No relationship: -0.25 < r < 0.25
+- The strength of a relationship can be affected by outliers.
+
+---
+layout: center
+---
+
+# Direction
+
+- The direction of a relationship is determined by the sign of r.
+- A positive value of r indicates a positive linear relationship.
+- A negative value of r indicates a negative linear relationship.
+
+---
+layout: center
+---
+
 # Your Turn
 
 Open the Lego dataset spreadsheet from the previous lesson. 
