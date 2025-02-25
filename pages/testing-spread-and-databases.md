@@ -26,6 +26,7 @@ layout: cover
 
 ---
 layout: center
+zoom: 1.2
 ---
 
 # From the study design
@@ -82,5 +83,26 @@ layout: center
 | Test Case | Input Data | Expected Result | Actual Result |
 |-----------|------------|-----------------|---------------|
 | Checking Adults | 3 adults, 2 children | 3 rows | 3 rows |
-| Checking Validation | 0, 5, 11 | Error for 0 and 11, no error for 5 | Error for 0 and 11, no error for 5 |
+| Checking Adults No results | 0 adults, 5 children | 0 rows | 0 rows |
+| Checking Validation | 0, 5, 11 | Error for 0 and 11, no error for 5 | <span v-mark.circle.blue>Error for 0, 5 and 11. Need to fix so 5 has no error.</span> |
+
+<v-clicks>
+
+Remember: we **want** to document errors in our test table, so we can fix them! A test table where `Expected Results` always matches `Actual Results` makes Mr Matheson suspicious!
+
+</v-clicks>
+
+<style>
+th {
+  background-color:rgb(164, 160, 160);
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 2px 10px;
+}
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 0px 10px;
+}
+</style>
 ---
