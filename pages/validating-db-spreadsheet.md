@@ -2,7 +2,7 @@
 layout: cover
 transition: fade
 hideInToc: false
-background: https://cover.sli.dev/
+background: /img/validation.webp
 ---
 
 # Validating Database and Spreadsheets
@@ -46,7 +46,7 @@ transition: fade
 An existence check is a validation check that ensures that data has been entered into a field or column. 
 
 - A database might do this by adding a<span v-mark.highlight.orange> `NOT NULL` constraint</span> to a column.
-```sql {all|2}
+```sql {all|3}
     CREATE TABLE students (
         id INT PRIMARY KEY,
         name VARCHAR(50) NOT NULL
@@ -64,7 +64,7 @@ transition: fade
 
 A type check is a validation check that ensures that data is of the correct type.
 - A database might do this by adding an <span v-mark.highlight.orange> `INTEGER` constraint</span>to a column. 
-  ```sql {all|1,3}
+  ```sql {all|4}
     CREATE TABLE students (
         id INT PRIMARY KEY,
         name VARCHAR(50) NOT NULL,
