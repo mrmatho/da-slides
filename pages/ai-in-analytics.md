@@ -39,10 +39,12 @@ layout: center
 
 # Integration of AI Features into Software Tools
 
-- AI features are being integrated into software tools to enhance the capabilities of the tools.
-- For example, AI features can be used to automate the process of data analysis, by automatically generating insights from data.
+- AI features are being integrated into software (programs) to enhance the capabilities of those tools.
+    - For example, AI features can be used to automate the process of data analysis, by automatically generating insights from data.
 - AI features can also be used to enhance the user experience of the software tools, by providing intelligent recommendations and suggestions to the user.
-- These AI features include a combination of machine learning algorithms, natural language processing, and computer vision techniques.
+- These AI features include a combination of:
+    - machine learning algorithms (generating the insights from the data)
+    - natural language processing (taking the user's words and turning them into code or instructions), - - computer vision techniques (interpreting images or videos)
 
 ---
 layout: center
