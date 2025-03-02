@@ -7,9 +7,9 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
 fonts:
-  sans: Barlow
+  sans: Red Hat Display
   serif: Roboto Slab
-  mono: Fira Code
+  mono: Source Code Pro
 
 defaults:
   layout: center
@@ -71,3 +71,5 @@ hide: false
 src: ./pages/data-distribution-shape.md
 hide: false
 ---
+
+src: ./pages/ai-in-analytics.md
