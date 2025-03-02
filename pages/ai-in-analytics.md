@@ -49,6 +49,7 @@ layout: center
 - AI techniques can be used to generate data visualisations automatically, through submitting and refining prompts to large language models. 
     - For example, a user can submit a prompt like "show me a bar chart of the sales data by region", and the AI model can generate the data visualisation based on the prompt.
     - This can help users to quickly explore and understand their data, without needing to manually create the visualisations themselves. It reduces the level of expertise required to create data visualisations.
+- These models may also provide code snippets (or even complete code) to generate the visualisation in a programming language like Python.
 
 ---
 layout: center
@@ -75,3 +76,14 @@ layout: center
     - AI models are trained on data that may not have been collected ethically or with consent. This can cause privacy issues and misuse of AI models.
     - Using AI tools in data analytics can unintentionally share private information with third parties without the knowledge or consent of the data subjects.
     
+---
+layout: center
+---
+
+# Summary
+
+- Integration of AI features into software tools
+    - Using AI to make software tools simpler to use and/or more powerful
+- Generating data visualisations through the writing and refinement of prompts
+    - Using Large Language Models to generate data visualisations based on prompts
+- Machine learning and statistical modelling for making predictions, decisions and recommendations
