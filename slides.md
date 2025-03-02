@@ -68,3 +68,4 @@ hide: false
 ---
 
 ---
+src: ./pages/ai-in-analytics.md
