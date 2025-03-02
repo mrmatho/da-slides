@@ -1,9 +1,22 @@
 ---
 title: Shape of Data Distributions
 description: Understanding the shape of data distribution is crucial for effective analysis and modeling.
-layout: li
+layout: center
 hideInToc: false
 transition: fade
+---
+
+# Do Now
+
+Answer the following questions in your book:
+
+1. Daniella collects data on the number of hours her friends spend completing chores around the home each week, and the number of hours they spend on leisure activities. She finds the two variables show a correlation coefficient of -0.6. What does this mean? 
+2. Daniella's friend Hector believes that this data means that the amount of time people are spending on chores is causing them to not have as much leisure time. Would you agree with Hector? Why or why not?
+
+(10 minutes)
+
+---
+layout: li
 ---
 
 ::li::
@@ -23,9 +36,18 @@ layout: center
 
 Measures of shape describe the distribution (or pattern) of the data within a dataset.
 
-The distribution shape of quantitative data can be described as there is a logical order to the values, and the 'low' and 'high' end values on the  x-axis of the histogram are able to be identified. 
+The distribution shape of quantitative data can be described as long as there is a logical order to the values, and the 'low' and 'high' end values on the  x-axis of the histogram are able to be identified. 
 
-The distribution shape of a qualitative data cannot be described as the data are not numeric.
+<span v-mark>The distribution shape of qualitative data cannot be described as the data are not numeric. </span>
+
+When investigating shape - we look at each variable individually (shape and skew do not relate to variables being correlated).
+
+---
+layout: center
+zoom: 1.2
+---
+
+# Distribution Shapes
 
 |Shape|Description|
 |---|---|
@@ -90,3 +112,12 @@ layout: center
 1. Select the data you want to create a histogram for.
 2. Click on the "Insert" tab in the Excel ribbon.
 3. In the Charts group, click on the "Insert Statistic Chart" button.
+4. Select "Histogram" from the dropdown menu.
+5. Excel will create a histogram based on your selected data.
+
+## Your Task
+Create a histogram to analyse the shape of the year and number of pieces in the Lego set data.
+- What is the shape of each distribution?
+- What does that tell you about the data?
+
+---

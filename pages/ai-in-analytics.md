@@ -2,6 +2,7 @@
 layout: cover
 transition: fade
 hideInToc: false
+title: AI in Analytics
 background: /img/validation.webp
 ---
 
@@ -14,8 +15,12 @@ layout: li
 ---
 
 ::li::
-To be able to identify and describe emerging uses of AI in Data Analytics.
 
+- To be able to identify and describe emerging uses of AI in Data Analytics.
+
+::sc::
+
+- Define and distinguish between the three different emerging trends in data analytics using AI.
 ---
 layout: center
 ---

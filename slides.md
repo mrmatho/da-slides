@@ -72,4 +72,7 @@ src: ./pages/data-distribution-shape.md
 hide: false
 ---
 
+---
 src: ./pages/ai-in-analytics.md
+hide: false
+---
