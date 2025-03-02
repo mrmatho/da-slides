@@ -139,5 +139,3 @@ layout: center
 - Both validation and data cleansing are important steps in ensuring data is usable and reliable.
 - Validation occurs at the point of <span v-mark.underline.purple>data entry</span>, while data cleansing occurs <span v-mark.underline.blue>after data has been loaded</span>.
 - Validation is a <span v-mark.underline.purple>preventative</span> measure, while data cleansing is a <span v-mark.underline.blue>corrective</span> measure.
-
----
