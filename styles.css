@@ -1,17 +1,16 @@
 
 table td {
     text-align: left;
-    border: 1px solid #888;
-    font-size: 0.8rem;
-    line-height: 0.7rem;
+    border: 1px solid #536b53;
+    font-size: 0.9rem;
+    padding: 0;
 }
 
 table th {
     text-align: center;
     border: 1px solid #000000;
-    font-size: 0.8rem;
     background-color: #7fb393;
     color: black;
-    line-height: 0.7rem;
+    line-height: 0.8rem;
     font-weight: bold;
 }
