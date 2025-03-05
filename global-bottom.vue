@@ -1,4 +1,4 @@
 <!-- global-bottom.vue -->
 <template>
-    <footer class="absolute bottom-0 left-0 right-0 p-1 text-sm font-mono italic text-gray-400">Unit 3 & 4 Data Analytics, 2025</footer>
-  </template>
+  <footer class="absolute bottom-0 left-0 right-0 p-1 text-sm font-mono italic text-gray-400">Heathmont College, VCE Unit 3 & 4 Data Analytics, 2025</footer>
+</template>
