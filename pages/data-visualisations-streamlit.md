@@ -100,4 +100,13 @@ streamlit run app.py
 Each time you create a streamlit app, put it in a new folder. Use `app.py` as the name of the file by convention.
 
 ---
+layout: center
+---
 
+# Streamlit App Structure
+
+Streamlit apps are structured as a series of commands that are executed in order. Each command generates a part of the app's user interface. 
+
+Every time a user input occurs, the whole page reloads. This allows for interactivity, but it also means that you need to be careful about how you structure your app.
+
+---
