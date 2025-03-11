@@ -107,6 +107,53 @@ layout: center
 
 Streamlit apps are structured as a series of commands that are executed in order. Each command generates a part of the app's user interface. 
 
-Every time a user input occurs, the whole page reloads. This allows for interactivity, but it also means that you need to be careful about how you structure your app.
+Every time user input occurs, the whole page reloads. This allows for interactivity, but it also means that you need to be careful about how you structure your app.
+
+---
+layout: center
+---
+
+# Pandas and Plotly
+
+Our starting point for the visualisations will be to use two Python libraries: `pandas` and `plotly` . We will use Pandas to manipulate our data, and Plotly to create interactive visualisations.
+
+Pandas is a pwoerful data manipulation library that allows you to work with data in a tabular format, meaning it is ideal for importing data from CSV or Excel files. 
+
+Plotly is a graphing library that allows you to create interactive visualisations. It is particularly useful for creating web-based visualisations that can be embedded in Streamlit apps. Plotly allows for interactivity, such as zooming and hovering over data points to see more information as well as simple animations (but we'll hold off on them).
+
+---
+layout: center
+---
+
+# Example Streamlit App
+
+```python
+
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Set the title of the app
+st.set_page_config(page_title="Meteorite Landings", layout="wide")
+st.title("Meteorite Landings")
+
+# Load the data
+df = pd.read_csv("meteorites.csv")
+# Remove rows with missing values
+df.dropna(inplace=True)
+
+# We could do some filtering here, but we aren't right now
+
+# Create a scatter plot
+fig = px.scatter(df, x="year", y="mass", color="fall", hover_name="name")
+fig.update_layout(title="Meteorite Landings", xaxis_title="Year", yaxis_title="Mass (g)")
+
+# Display the plot
+st.plotly_chart(fig, height=800)
+
+# Display the data
+st.write("Data:")
+st.dataframe(df)
+```
 
 ---
