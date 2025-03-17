@@ -16,16 +16,16 @@ layout: center
 
 # From the study design: 
 
-- purposes of data visualisations, including:
+- **purposes of data visualisations, including:**
     - exploratory data analysis
     - presentation of information
     - providing interactive experiences for users to explore data
 
-- formats and conventions applied to data visualisations to improve their effectiveness for intended users, including:
+- **formats and conventions applied to data visualisations to improve their effectiveness for intended users, including:**
     - use of colours, fonts, images and icons
     - visual hierarchy and clarity of message
 
-- techniques for testing data visualisations, including:
+- **techniques for testing data visualisations, including:**
     - visual inspection of the appearance of the data visualisation
     - confirming that charts and graphs are representative of the data being visualised.
 
@@ -52,7 +52,7 @@ layout: center
 |-----------|----------|-----|-------|-------|-----------|
 | Select, justify and apply functions, formats and conventions to create effective data visualisations | Identifies functions and formats to create data visualisations that incorporate text and images. | Applies functions and formats to create data visualisations that incorporate text, images, symbols and charts. | Uses functions, formats and conventions to create data visualisations that incorporate a range of relevant chart types. Outlines why the types of data visualisations were used. | Uses functions, formats and conventions to create effective data visualisations that explain identified trends, relationships and patterns.  Explains why the types of data visualisations were used. |  <span v-mark.highlight.green> Uses and justifies functions, formats and conventions to create effective data visualisations that clearly communicates and displays all findings. <br /> Justifies the use of the types of data visualisations selected. </span> | 
 
-In the SAC, you will need to create your interactive data dashboard and explain it is effective, including selection of data visualisations.
+In the SAC, you will need to create your interactive data dashboard and explain what makes it effective, including selection of data visualisations.
 ---
 layout: center
 ---
