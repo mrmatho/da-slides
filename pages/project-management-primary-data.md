@@ -46,6 +46,8 @@ The five errors were:
 
 **To gain marks, students needed to circle the whole section of the error. For Error 2, a number of students only circled either Task E or Task F, yet both tasks needed to be circled to gain marks.**
 
+Average marks: a) 2.1/3, b) 1.6/3
+
 ---
 layout: center
 ---
