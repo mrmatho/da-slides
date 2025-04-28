@@ -14,3 +14,33 @@ table th {
     line-height: 0.8rem;
     font-weight: bold;
 }
+
+strong {
+    --uno: 'bg-green-300 dark:bg-green-800';
+
+}
+
+em {
+    --uno: 'bg-purple-300 dark:bg-purple-800';
+}
+
+a:link {
+    --uno: 'bg-orange-200 dark:bg-orange-800';
+}
+
+a:hover {
+    font-weight:bold;
+}
+
+li ul li {
+    font-size: 0.95rem;
+}
+
+.note {
+    --uno: 'bg-yellow-200 dark:bg-yellow-800';
+    
+    font-size: 0.95rem;
+    line-height: 0.7rem;
+    padding:2px 20px;
+    border-radius: 15px;
+}
