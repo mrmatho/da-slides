@@ -17,11 +17,13 @@ table th {
 
 strong {
     --uno: 'bg-green-300 dark:bg-green-800';
+    font-weight: bolder !important;
 
 }
 
 em {
     --uno: 'bg-purple-300 dark:bg-purple-800';
+    font-style: italic !important;
 }
 
 a:link {
@@ -42,5 +44,6 @@ li ul li {
     font-size: 0.95rem;
     line-height: 0.7rem;
     padding:2px 20px;
+    
     border-radius: 15px;
 }
