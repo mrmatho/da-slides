@@ -164,6 +164,7 @@ You can do this by:
 
 ---
 layout: center
+zoom: 0.8
 ---
 
 # Examples from my Analysis
@@ -194,3 +195,51 @@ layout: center
 - The visualisations should be appealling to the target audience of AFL fans and be easy to understand and interpret.
 - The visualisations should be interactive and allow users to filter the data by team, venue, state and year where relevant.
 - Visualisations should incorporate a range of different types of graphs and charts to present the data in a variety of ways.
+
+---
+layout: center
+---
+
+# Examples from my Analysis
+
+*(My Research question: What effect does home ground advantage have on the outcome of an AFL match?)*
+
+# Constraints
+
+- Economic: 
+    - Time: The project must be completed between now and Week 8 of Term 3. 
+    - Cost: I am not able to pay for access to Champion Data or any other paid data sources.
+- Technical:
+    - The data must be accessed from an Excel spreadsheet and the visualisations must be created using the Plotly and Streamlit libraries in Python.
+    - 
+
+---
+layout: center
+---
+
+# Examples from my Analysis
+
+*(My Research question: What effect does home ground advantage have on the outcome of an AFL match?)*
+
+# Scope
+
+- The data will only include games played in the AFL from 2000 to 2024.
+- Games played at neutral venues (such as the Gabba in 2020) will be excluded from the dataset.
+- The football fans surveyed are only from my personal networks and may not be representative of the general population of AFL fans.
+- The visualisations will only include data on the home ground advantage of teams in the AFL and will not include any other leagues or competitions.
+- The visualisations will not include any data on the performance of individual players or teams, only the overall outcome of games (win/loss) and the margin of victory.
+- Visualisations will be limited to those that can be created in the plotly and streamlit libraries in Python.
+
+---
+layout: center
+---
+
+# Examples from my Analysis
+
+*(My Research question: What effect does home ground advantage have on the outcome of an AFL match?)*
+
+# Data Collection Sources and Methods
+
+- Data will be sourced from the Squiggle API (https://api.squiggle.com.au) and transformed into a set of CSV files before being imported into a database.
+- Survey data collected from (hopefully) 50 football fans through a Google Form. The survey will include questions on their opinions on home ground advantage, which teams they think have the strongest home ground advantage, and which state they live in.
+- The survey will be distributed through social media and personal networks to gather a diverse range of responses
