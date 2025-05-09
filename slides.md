@@ -106,3 +106,10 @@ hide: false
 src: ./pages/data-integrity.md
 hide: false
 ---
+
+---
+src: ./pages/consent.md
+hide: false
+---
+
+---

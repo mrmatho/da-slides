@@ -18,12 +18,16 @@ table th {
 strong {
     --uno: 'bg-green-300 dark:bg-green-800';
     font-weight: bolder !important;
+    padding: 0px 4px;
+    border-radius: 5px;
 
 }
 
 em {
     --uno: 'bg-purple-300 dark:bg-purple-800';
     font-style: italic !important;
+    padding: 0px 4px;
+    border-radius: 3px;
 }
 
 a:link {
@@ -46,4 +50,12 @@ li ul li {
     padding:2px 20px;
     
     border-radius: 15px;
+}
+
+
+em strong {
+    font-style: italic;
+    --uno: 'bg-teal-300 dark:bg-teal-800 text-black dark:text-white';
+    border-radius: 3px;
+    padding: 0px 3px;
 }
