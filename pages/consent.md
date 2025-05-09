@@ -59,3 +59,37 @@ layout: center
 When conducting interviews or observations, you should also obtain informed consent from participants. This can be done through a verbal consent or through a written consent form. Consent should include the same elements as a survey consent statement, but it may also include additional information about the interview or observation process. Be as specific with participants as possible about what you will be doing and how their data will be used.
 
 In instances where you are observing individuals in a public space, you may not need (or be able) to obtain explicit consent. However, it is still important to inform individuals that they are being observed and to respect their privacy.
+
+---
+layout: center
+---
+
+# Your Turn
+
+For your SAT data collection, write a consent statement for your survey or interview. Be sure to include each of the elements discussed in this lesson.
+
+---
+layout: two-cols-header
+---
+
+# Writing Survey and Interview Questions
+
+Surveys and interviews are two common methods of data collection. The quality of data collected depends almost entirely on the quality of the questions asked. Writing effective survey and interview questions is a skill that can be developed with practice.
+
+::left::
+
+## Survey Questions
+
+- Your questions must be self-explanatory - you cannot be there to explain them.
+- Think carefully about the types of responses you want: don't give people a choice of answers that doesn't include their own.
+- Use open-ended questions when you want to encourage detailed responses.
+- Use closed-ended questions when you want to gather specific information.
+
+::right::
+
+## Interview Questions
+
+- Plan your questions in advance, but be ready to include follow-up questions based on the interviewee's responses.
+- Use open-ended questions to encourage discussion and exploration of the topic.
+- Don't include too many closed questions, as they can limit the depth of the conversation.
+- Be prepared to explain your questions and clarify any misunderstandings.
