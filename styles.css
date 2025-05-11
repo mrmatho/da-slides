@@ -30,8 +30,10 @@ em {
     border-radius: 3px;
 }
 
-a:link {
-    --uno: 'bg-orange-200 dark:bg-orange-800';
+a:link, a:visited {
+    --uno: 'bg-orange-200 dark:bg-orange-800 text-blue-900 dark:text-yellow';
+    border-radius: 5px;
+    padding: 0px 5px;
 }
 
 a:hover {
