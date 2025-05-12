@@ -8,7 +8,7 @@ background: https://cover.sli.dev
 title: Data Analytics Slides
 fonts:
   sans: Red Hat Display
-  serif: Roboto Slab
+  serif: Domine
   mono: Source Code Pro
 
 defaults:
@@ -25,7 +25,7 @@ mdc: true
 
 # Contents
 
-<Toc minDept=1 maxDepth=1 columns=2 />
+<Toc minDept=1 maxDepth=1 columns=3 />
 
 ---
 src: ./pages/heathos.md
@@ -109,6 +109,11 @@ hide: false
 
 ---
 src: ./pages/consent.md
+hide: false
+---
+
+---
+src: ./pages/data-management-strategy.md
 hide: false
 ---
 

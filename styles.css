@@ -49,11 +49,14 @@ li ul li {
     
     font-size: 0.95rem;
     line-height: 0.7rem;
-    padding:2px 20px;
-    
+    padding:5px 20px;
+    --uno: 'font-serif';
     border-radius: 15px;
 }
 
+div.note {
+    margin: 10px;
+}
 
 em strong {
     font-style: italic;
