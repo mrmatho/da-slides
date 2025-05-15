@@ -118,3 +118,8 @@ hide: false
 ---
 
 ---
+src: ./pages/legal-1.md
+hide: false
+---
+
+---
