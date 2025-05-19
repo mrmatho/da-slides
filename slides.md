@@ -123,3 +123,8 @@ hide: false
 ---
 
 ---
+src: ./pages/design-ideas.md
+hide: false
+---
+
+---
