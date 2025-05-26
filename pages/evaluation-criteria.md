@@ -71,6 +71,35 @@ layout: center
 layout: center
 ---
 
+# Efficiency and Effectiveness Mind Map
+
+```mermaid
+mindmap
+    root((Evaluation Criteria))
+        Efficiency
+            Cost
+            Time
+                Functionality
+            Effort
+                Functionality
+        Effectiveness
+            Intended Purpose
+
+                Accessibility
+                Accuracy
+                Attractiveness
+                Clarity
+                Communication of Message
+                Completeness
+                Maintainability
+                Readability
+                Relevance
+                Timeliness
+                Usability
+```
+---
+layout: center
+---
 # Creating Evaluation Criteria - A Thinking Process
 
 - Start with thinking about the application of efficiency and effectiveness in the context of your design ideas
