@@ -89,7 +89,7 @@ mindmap
                 Accuracy
                 Attractiveness
                 Clarity
-                Communication of Message
+                ))**Communication of Message**((
                 Completeness
                 Maintainability
                 Readability
