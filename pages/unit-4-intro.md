@@ -343,3 +343,12 @@ zoom: 1.2
 Respond to a teacher-provided case study to analyse the impact of a data breach on an organisation, identify and evaluate threats, evaluate current security strategies and make recommendations to improve security strategies.
 
 <div class="note">
+
+This is our **only** exam style SAC for the year. It is **so** important that you:
+
+- understand and study the content
+- practice using case-study information to answer questions
+- practice handwriting responses
+- work effectively under time pressure
+
+</div>
