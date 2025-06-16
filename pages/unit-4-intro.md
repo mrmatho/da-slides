@@ -67,35 +67,6 @@ zoom: 0.8
 
 ::right::
 
-**Effective and efficient methods to manipulate data using software tools, including:**
-
-- use of templates  
-- software functions  
-- use of artificial intelligence tools to represent data and information  
-
-
-**Techniques for analysing data to refine findings for data visualisations, including:**
-- descriptive statistics (average, median, minimum, maximum, range, standard deviation, count/frequency, sum)  
-- Pearson’s correlation co-efficient \(r\)  
-- the shape and skew of data  
-
-
-**Techniques for implementing data security, including:**
-- using security controls  
-- developing an implementation plan  
-- using a checklist to ensure controls are successfully implemented  
-
-
-
----
-layout: two-cols-header
-zoom: 0.8
----
-
-# Area of Study 1 Key Knowledge (cont.)
-
-::left::
-
 **Characteristics of information for target audiences, including:**
 - age appropriateness  
 - commonality of language  
@@ -111,7 +82,16 @@ zoom: 0.8
 - use of colours, fonts, images and icons  
 - visual hierarchy and clarity of message  
 
-::right::
+
+
+---
+layout: two-cols-header
+zoom: 0.8
+---
+
+# Area of Study 1 Key Knowledge (cont.)
+
+::left::
 
 **Techniques for improving data quality by validating and verifying data, including:**
 - existence checking  
@@ -124,21 +104,13 @@ zoom: 0.8
 - visual inspection of the appearance of the data visualisation  
 - confirming that charts and graphs are representative of the data being visualised  
 
-
-
----
-layout: two-cols-header
-zoom: 0.9
----
-
-# Area of Study 1 Key Knowledge (cont.)
-
-::left::
-
 **Features of evaluation strategies, including:**
 - criteria  
 - time frame  
 - responsibility  
+
+::right::
+
 
 **Techniques for applying evaluation criteria**
 
@@ -148,12 +120,11 @@ zoom: 0.9
 - annotations to project plans  
 - monitoring and documenting progress using logs/journals  
 
-::right::
-
 **Techniques for assessing the effectiveness of a project plan, including:**
 - reviewing the number of changes made to the project plan during the project  
 - the reason changes were necessary  
 - the impact of changes on the completion of the project  
+
 
 ---
 layout: center
@@ -171,6 +142,7 @@ zoom: 1.2
 
 ---
 layout: center
+zoom: 0.9
 ---
 
 # Outcome 1 Assessment: SAT (part 2)
@@ -214,7 +186,7 @@ On completion of this unit the student should be able to respond to a teacher-pr
 
 ---
 layout: two-cols-header
-zoom: 0.8
+zoom: 0.85
 ---
 
 # Area of Study 2 Key Knowledge
