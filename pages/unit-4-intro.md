@@ -352,3 +352,17 @@ This is our **only** exam style SAC for the year. It is **so** important that yo
 - work effectively under time pressure
 
 </div>
+
+---
+layout: center
+zoom: 1.1
+---
+
+# Do Now
+
+Work through the previous slides and for each key knowledge point (just the part in bold) categorise it as:
+
+| **New** Knowledge | **Previous Knowledge** I need to work on | Knowledge I am confident with |
+| --- | --- | --- |
+|  |  |  |
+
