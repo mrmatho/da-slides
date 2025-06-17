@@ -336,5 +336,4 @@ Work through the previous slides and for each key knowledge point (just the part
 
 | **New** Knowledge | **Previous Knowledge** I need to work on | Knowledge I am confident with |
 | --- | --- | --- |
-|  |  |  |
-
+|     |     |     |
