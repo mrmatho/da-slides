@@ -68,5 +68,8 @@ zoom: 1.1
 
 - The spreadsheet itself will show lots
 - Provide a description of anything you have done that doesn't appear to be obvious
-- 
+- Double check EVERYTHING you have done
+    - Is it clear?
+    - Is it obvious?
+    - Have you done everything that is required?
     

@@ -36,7 +36,7 @@ zoom: 0.8
 
 <style>
 td {
-    background-color: #FFFFFF;
+    uno-css: "bg-gray-100 dark:bg-gray-800";
 }
     </style>
 
