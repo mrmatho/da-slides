@@ -35,3 +35,38 @@ zoom: 0.8
 |            | Identifies trends in the data. | Creates charts to enable statistical analysis. | Creates relevant charts that accurately depict the data. | Examines the statistics and describes its relevance. | Explains reasons for the shape and skew of data accurately. |
 |            |                | Outlines trends and patterns in the data. | Describes trends and patterns in the data and charts produced. | Describes the shape and skew of the data and charts correctly. | Calculates Pearson’s correlation coefficient and uses the value to show the relationship between data variables. |
 |            |                |           |              | States the relationships between data variables. | |
+
+---
+layout: center
+zoom: 1.1
+---
+
+# So what is important?
+
+- You have to **show** that you have:
+    - Applied conditional formatting to data.
+    - Linked data between worksheets.
+    - Got data in a format for export to infographics and/or dynamic data visualisations.
+    - Sorted data using more than one column (ie - this then that)
+    - Validated: existence, type, range.
+    - Calculated **lots of** descriptive statistics (not just the ones you will use in your visualisation)
+    - Demonstrated skew and shape of data.
+        - Histogram and/or scatter plot, with description of skew and shape.
+        - Just the graph is not enough.
+    - Calculated Pearson’s correlation coefficient.
+        - Use it to explain the relationship between data variables.
+    - Identify any trends and patterns in the data.
+
+It is not enough to have done them, they have to be **shown in what you submit**.
+
+---
+layout: center
+zoom: 1.1
+---
+
+# How can I show this?
+
+- The spreadsheet itself will show lots
+- Provide a description of anything you have done that doesn't appear to be obvious
+- 
+    
