@@ -17,7 +17,7 @@ zoom: 0.8
 
 | Indicators | 1–2 (very low) | 3–4 (low) | 5–6 (medium) | 7–8 (high) | 9–10 (very high) |
 |------------|----------------|-----------|--------------|------------|------------------|
-| **Use of data visualisation software tools to create and present data visualisations.** | Identifies functions and formats to create infographics and/or dynamic data visualisations that incorporate: *text and images.* | Applies functions and formats to create infographics and/or dynamic data visualisations that incorporate: *text, images, symbols and charts* | Uses functions, formats and conventions to create infographics and/or dynamic data visualisations that incorporate: *a range of chart types.* | Uses functions, formats and conventions to create infographics and/or dynamic data visualisations that explain identified relationships, trends and patterns. Explains why the types of data visualisations were used | Selects and uses functions, formats and conventions to create effective infographics and/or dynamic data visualisations that clearly communicate and displays all findings to a target audience. Evaluates the use of the types of data visualisations. |
+| **Use of data visualisation software tools to create and present data visualisations.** | Identifies functions and formats to create infographics and/or dynamic data visualisations that incorporate: *text and images.* | Applies functions and formats to create infographics and/or dynamic data visualisations that incorporate: *text, images, symbols and charts* | Uses functions, formats and conventions to create infographics and/or dynamic data visualisations that incorporate: *a range of chart types.* | Uses functions, formats and conventions to create infographics and/or dynamic data visualisations that explain identified *relationships, trends and patterns*. Explains why the types of data visualisations were used | Selects and uses functions, formats and conventions to create effective infographics and/or dynamic data visualisations that clearly communicate and *displays all findings to a target audience*. Evaluates the use of the types of data visualisations. |
 
 So what is important for us to be able to do in Streamlit?
 
@@ -26,6 +26,7 @@ So what is important for us to be able to do in Streamlit?
 - Text, images, symbols, charts
 - A range of chart types
 - Effective communication
+- Interactivity
 
 </v-clicks>
 
@@ -37,7 +38,7 @@ zoom: 1.1
 # Text and Images
 
 - `st.write()` for plain text
-- `st.markdown()` for formatted text
+- `st.markdown()` for **formatted** text
 - `st.image()` for images
 - `st.header()`, `st.subheader()`, `st.title()` for headings
 
@@ -49,7 +50,10 @@ st.title("Research Question")
 
 st.subheader("Subheading")
 
-st.markdown("This is a **paragraph** of text that *explains* the research question.")
+st.markdown("""
+This is a **paragraph** of text that *explains* the research question.
+
+This is a second paragraph.""")
 
 st.image("path/to/image.png", caption="Image Caption")
 ```
@@ -108,5 +112,3 @@ with col2:
         st.write("This is additional information that can be expanded.")
 
 ```
-
----
