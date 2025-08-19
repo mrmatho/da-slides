@@ -255,6 +255,12 @@ It applies to:
 - All Victorian public sector organisations (including local councils, state government departments, and public hospitals)
 - Any private sector organisation that provides services to a Victorian public sector organisation
 
+---
+layout: center
+zoom: 1.2
+---
+
+# Privacy and Data Protection Act - Information Privacy Principles (IPPs)
 For data analytics, the most relevant Information Privacy Principles (IPPs) are:
 
 - **IPP 1**: Collection of personal information --> Mirrors personal information collection in APP 3
