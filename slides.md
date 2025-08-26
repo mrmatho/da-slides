@@ -173,3 +173,8 @@ hide: false
 ---
 
 ---
+src: ./pages/goals-objectives.md
+hide: false
+---
+
+---
