@@ -9,7 +9,7 @@ hideInToc: false
 
 ---
 layout: center
-zoom: 0.95
+zoom: 1.1
 ---
 
 # Goals
@@ -25,6 +25,7 @@ Examples of organisational goals include:
 
 ---
 layout: center
+zoom: 1.1
 ---
 
 # Objectives
@@ -40,6 +41,7 @@ Examples of organisational objectives include:
 
 ---
 layout: center
+zoom: 1.1
 ---
 
 # Relationship Between Goals and Objectives
@@ -51,6 +53,7 @@ layout: center
 
 ---
 layout: center
+zoom: 1.1
 ---
 
 # Data Integrity and Organisational Goals and Objectives
@@ -72,3 +75,39 @@ An organisation making electric vehicles has the following goals and objectives:
 - Objective: Launch two new electric vehicle models in the next six months.
 
 How could poor data integrity impact the organisation's ability to achieve its goals and objectives? Describe the impact of two characteristics of data integrity in your answer.
+
+---
+layout: center
+zoom: 1.1
+---
+
+# Schedule for Remainder of Term
+
+|Lesson|Date|Topic|
+|-|-|-|
+| Week 7 Tuesday Double | 2 September | Disaster Recovery Plans |
+| Week 7 Thursday Single | 4 September | Emerging Trends in Cyber Security |
+| Week 8 Monday Single | 8 September | Evaluating Effectiveness of data and information security strategies |
+| Week 8 Tuesday **Curriculum Day** | 9 September | No Class. *Complete Practice SAC at home* |
+| Week 8 Thursday Single | 11 September | Ethics and Review |
+| Week 9 Monday Single | 15 September | Review Practice SAC |
+| Week 9 Tuesday Double | 16 September | SAC |
+| Week 9 Thursday Single | 18 September | Cryptography and Holiday HW |
+
+---
+layout: center
+zoom: 1.1
+---
+
+# Consequences of Diminished Data Integrity
+
+*(Straight from the VCAA Study Design)*
+
+- Loss of reputation
+- poor decision-making
+- financial loss
+- legal issues
+- impacted operations
+
+---
+
