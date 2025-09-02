@@ -3,6 +3,7 @@ title: Disaster Recovery Plans
 description: Overview of disaster recovery strategies and best practices.
 hideInToc: False
 layout: cover
+transition: fade
 ---
 
 # Disaster Recovery Plans
