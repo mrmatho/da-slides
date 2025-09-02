@@ -78,7 +78,8 @@ How could poor data integrity impact the organisation's ability to achieve its g
 
 ---
 layout: center
-zoom: 1.1
+zoom: 0.9
+hideInToc: false
 ---
 
 # Schedule for Remainder of Term
@@ -108,6 +109,4 @@ zoom: 1.1
 - financial loss
 - legal issues
 - impacted operations
-
----
 
