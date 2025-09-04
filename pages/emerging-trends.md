@@ -7,7 +7,7 @@ background: https://cover.sli.dev
 description: Overview of emerging trends in cyber security.
 ---
 
-# Emerging Trends in Data Security and Privacy
+# Emerging Trends in Cyber Security
 
 ---
 layout: cover
@@ -32,11 +32,11 @@ zoom: 1.1
 # Use of Artificial Intelligence to Protect Data
 
 - AI can analyze large amounts of data to identify *patterns and anomalies* that may indicate a security breach.
-    - Identifying unusual login locations or times.
-    - Working through vast log files of network traffic to spot potential threats.
-- AI tools used to identify anomolies in data records that may indicate fraud or other malicious activity.
-    - Looking for unusual transactions or changes to account information.
-- AI can predict potential threats based on historical data, allowing organizations to proactively address vulnerabilities.
+    - Identifying *unusual login locations or times*.
+    - Working through *logs of network traffic* to spot potential threats.
+- AI tools used to identify *anomolies in data records* that may indicate fraud or other malicious activity.
+    - eg. Looking for unusual transactions or changes to account information.
+- AI can *predict potential threats* based on historical data, allowing organizations to proactively address vulnerabilities.
 
 
 ---
@@ -56,6 +56,7 @@ zoom: 1.1
     - Text message or email one-time codes
     - Hardware tokens
 
+
 ---
 layout: center
 zoom: 1.1
@@ -63,8 +64,8 @@ zoom: 1.1
 
 # Threat Detection and Response
 
-- Advanced threat detection systems use machine learning and AI to identify potential threats in real-time.
-- These systems can analyze network traffic, user behavior, and other data to identify potential threats.
+- Advanced threat detection systems use machine learning and AI to *identify potential threats in real-time*.
+- These systems can analyze *network traffic, user behavior, and other data* to identify potential threats.
 - **Automated response systems** can quickly respond to threats, such as isolating infected devices or blocking malicious traffic.
 - This helps to minimize the impact of security breaches and reduce the time it takes to respond to threats.
 
