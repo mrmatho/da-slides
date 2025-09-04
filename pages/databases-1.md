@@ -91,6 +91,8 @@ zoom: 1.5
 
 # SQL Basics
 
+# Create a table
+
 ```sql {1|2|3}
 CREATE TABLE table_name (
     column1 datatype,
@@ -107,6 +109,8 @@ zoom: 1.5
 
 # SQL Basics
 
+## Add rows into a table
+
 ```sql {3|1|2|3}
 INSERT INTO table_name (column1, column2, ...)
 VALUES (value1, value2, ...);
@@ -120,6 +124,7 @@ zoom: 1.5
 
 # SQL Basics
 
+## Select rows, based on a condition
 ```sql {4|1|2|3}
 
 SELECT column1, column2, ...
@@ -129,7 +134,7 @@ WHERE condition;
 ```
 
 ---
-layout: two-cols
+layout: center
 transition: fade
 hideInToc: true
 zoom: 1.5
@@ -137,6 +142,7 @@ zoom: 1.5
 
 # SQL Basics
 
+## Joins
 ```sql {1|2|3}
 
 SELECT a.column1, b.column2, ...
@@ -144,7 +150,9 @@ FROM table1 a, table2 b
 WHERE a.common_field = b.common_field;
 
 ```
-:: right ::
+
+## Inner Join
+
 ```sql {1|2|3}
 SELECT a.column1, b.column2, ...
 FROM table1 a

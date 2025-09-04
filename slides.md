@@ -21,6 +21,7 @@ selectable: true
 layout: cover
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+zoom: 0.85
 ---
 
 # Contents
