@@ -189,3 +189,13 @@ hide: false
 ---
 
 ---
+src: ./pages/evaluating-security.md
+hide: false
+---
+
+---
+src: ./pages/ethics.md
+hide: false
+---
+
+---
