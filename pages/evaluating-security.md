@@ -11,6 +11,7 @@ background: https://cover.sli.dev
 
 ---
 layout: default
+zoom: 1.3
 ---
 
 # Do Now: Revision
@@ -60,6 +61,7 @@ Wherever possible we want to make sure our criteria can be **measured objectivel
 
 ---
 layout: center
+zoom: 1.4
 ---
 
 # Confidentiality Criteria
@@ -72,6 +74,7 @@ layout: center
 
 ---
 layout: center
+zoom: 1.4
 ---
 
 # Integrity Criteria
@@ -84,6 +87,7 @@ layout: center
 
 ---
 layout: center
+zoom: 1.2
 ---
 
 # Availability Criteria
@@ -112,6 +116,7 @@ When evaluating a security strategy, you need to:
 
 ---
 layout: center
+zoom: 1.2
 ---
 
 # Questions
