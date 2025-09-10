@@ -10,6 +10,55 @@ description: Overview of emerging trends in cyber security.
 # Ethics in Data Analytics
 
 ---
+layout: two-cols
+zoom: 0.9
+---
+
+# Revision Question: SQL 
+
+Use the sample rows from the database tables to the right, write an SQL query to find:
+
+1. The name and price of each item.
+2. The total price for each order (quantity * price), for all orders.
+3. The total revenue for all orders of the Broom (item_id = 101).
+
+<v-click>
+
+```sql {1-2|4-6|8-11}
+SELECT item_name, price
+FROM Items;
+
+SELECT order_id, quantity * price AS total_price
+FROM Orders
+INNER JOIN Items ON ORDERS.item_id = ITEMS.item_id;
+
+SELECT SUM(quantity * price) AS total_revenue
+FROM Orders
+INNER JOIN Items ON ORDERS.item_id = ITEMS.item_id
+WHERE Items.item_id = 101;
+
+```
+
+</v-click>
+
+::right::
+
+*ORDERS Table:*
+| order_id | item_id | order_date | quantity |
+|----------|-------------|------------|--------|
+| 1        | 101         | 2023-01-15 | 3 |
+| 2        | 102         | 2023-01-16 | 2 |
+| 3        | 101         | 2023-01-17 | 1 |
+
+*ITEMS Table:*
+
+| item_id | item_name     | price |
+|---------|---------------|-------|
+| 101     | Broom         | 10.00 |
+| 102     | Mop           | 15.00 |
+
+
+---
 layout: cover
 ---
 
