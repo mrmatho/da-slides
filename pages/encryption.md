@@ -80,7 +80,7 @@ A one-way function that transforms data into a fixed-size string of characters, 
 
 ---
 layout: two-cols
-zoom: 0.9
+zoom: 1.1
 ---
 
 # Symmetric Key Encryption
@@ -88,7 +88,7 @@ zoom: 0.9
 - Same key is used for both encryption and decryption
 - Faster and more efficient for large amounts of data
 - Key must be kept secret and shared securely
-- Examples: AES, DES, 3DES
+- *Examples: AES, DES, 3DES*
 
 ::right::
 
@@ -98,7 +98,7 @@ zoom: 0.9
 - More secure for key distribution, but slower than symmetric encryption
 - Commonly used for secure communications (e.g., SSL/TLS)
 
-- Examples: RSA, ECC
+- *Examples: RSA, ECC*
 
 ---
 layout: cover
