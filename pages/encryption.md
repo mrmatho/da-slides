@@ -124,26 +124,3 @@ layout: center
 4. Name one example of a symmetric encryption algorithm.
 5. Explain why a system might use hashing to protect passwords?
 
----
-layout: center
-zoom: 0.8
-hideInToc: false
-visible: false
----
-
-# SAC Marking Notes
-
-<v-clicks>
-
-- **Data Integrity:** quote the characteristics of data integrity
-- **Password Policies:** changing passwords every 60 days is actually pretty good. More often than that and people use other less secure ways to remember them.
-- **"Evaluate and explain"** - tripped lots of you up. Lots did one but not the other.
-- **Check any numbers** - e.g "two strategies" - make sure you clearly talk about two different strategies.
-- Question 6 (Describe how issues with the current strategy contributed to the data breach) - **answered really well!** 
-- **Know your laws** - Privacy Act, Privacy and Data Protection Act, Health Records Act, Notifiable Data Breach Amendment
-- **Threats** - Accidental, Deliberate, Event-based. Then describe them. Not the characteristics of data integrity.
-- Question 9 - "Evaluate how... impact on integrity" - Lots of blanks. **Characteristics of data integrity again.**
-- 
-</v-clicks>
-
----
