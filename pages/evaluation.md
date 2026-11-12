@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Evaluating Our Solutions
 background: https://cover.sli.dev
+routeAlias: solution-evaluation
 ---
 
 # Evaluating Our Solutions

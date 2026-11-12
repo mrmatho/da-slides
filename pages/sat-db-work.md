@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: SAT Database Work
 background: https://cover.sli.dev
+routeAlias: sat-database-work
 ---
 
 # SAT Database Work

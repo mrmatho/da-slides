@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Data Management Planning 
 background: https://cover.sli.dev
+routeAlias: data-management
 ---
 
 # Data Management Planning

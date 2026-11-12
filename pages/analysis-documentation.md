@@ -3,6 +3,7 @@ layout: cover
 transition: fade
 hideInToc: false
 title: Analysis Documentation
+routeAlias: analysis-documentation
 ---
 
 # Analysis Documentation

@@ -5,6 +5,7 @@ hideInToc: false
 background: https://cover.sli.dev
 layout: cover
 transition: fade
+routeAlias: encryption
 ---
 
 # Encryption

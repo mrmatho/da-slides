@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Design Principles
 background: https://cover.sli.dev
+routeAlias: design-principles
 ---
 
 # Design Principles

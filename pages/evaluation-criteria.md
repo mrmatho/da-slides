@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Creating Evaluation Criteria
 background: https://cover.sli.dev
+routeAlias: evaluation-criteria
 ---
 
 # Creating Evaluation Criteria

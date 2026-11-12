@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Generating Design Ideas
 background: https://cover.sli.dev
+routeAlias: design-ideas
 ---
 
 # Generating Design Ideas

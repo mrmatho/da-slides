@@ -1,6 +1,7 @@
 ---
 transition: fade-out
 layout: li
+routeAlias: sql-basics
 ---
 ::li::
 - To be clear on the expectations in Data Analytics, including materials, entry and exit routines
