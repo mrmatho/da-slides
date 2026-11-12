@@ -3,6 +3,7 @@ layout: cover
 transition: fade
 hideInToc: false
 background: /img/stats.webp
+routeAlias: spreadsheet-correlation
 ---
 
 # Correlation in Spreadsheets

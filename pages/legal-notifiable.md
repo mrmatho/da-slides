@@ -3,6 +3,7 @@ title: Notifiable Data Breaches
 layout: center
 transition: fade
 hideInToc: false
+routeAlias: data-breach-notices
 ---
 
 # Legal: Notifiable Data Breaches

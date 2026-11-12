@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Unit 4 Introduction
 background: https://cover.sli.dev
+routeAlias: unit-four-intro
 ---
 
 # Introduction to Unit 4

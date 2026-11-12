@@ -2,6 +2,7 @@
 layout: cover
 transition: fade
 hideInToc: false
+routeAlias: sql-joins
 ---
 
 # Joining Tables in SQL

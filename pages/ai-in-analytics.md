@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: AI in Analytics
 background: /img/validation.webp
+routeAlias: ai-analytics
 ---
 
 # AI in Analytics

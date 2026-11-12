@@ -5,6 +5,7 @@ transition: fade
 hideInToc: false
 background: https://cover.sli.dev
 description: Overview of emerging trends in cyber security.
+routeAlias: cybersecurity-trends
 ---
 
 # Emerging Trends in Cyber Security

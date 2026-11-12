@@ -4,6 +4,7 @@ title: Evaluating Security Strategies
 transition: fade
 hideInToc: false
 background: https://cover.sli.dev
+routeAlias: security-evaluation
 
 ---
 

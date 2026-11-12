@@ -3,6 +3,7 @@ layout: cover
 transition: fade
 hideInToc: false
 background: https://cover.sli.dev/
+routeAlias: spreadsheet-database-testing
 ---
 
 # Testing Spreadsheets and Databases

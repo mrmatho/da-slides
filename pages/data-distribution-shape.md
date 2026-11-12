@@ -4,6 +4,7 @@ description: Understanding the shape of data distribution is crucial for effecti
 layout: center
 hideInToc: false
 transition: fade
+routeAlias: distribution-shapes
 ---
 
 # Do Now

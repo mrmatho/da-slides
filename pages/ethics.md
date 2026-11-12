@@ -5,6 +5,7 @@ transition: fade
 hideInToc: false
 background: https://cover.sli.dev
 description: Overview of emerging trends in cyber security.
+routeAlias: data-ethics
 ---
 
 # Ethics in Data Analytics

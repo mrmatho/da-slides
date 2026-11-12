@@ -3,6 +3,7 @@ layout: cover
 transition: fade
 hideInToc: false
 background: /img/streamlit.svg
+routeAlias: streamlit-visualisations
 ---
 
 # Visualisations using Streamlit, Python, Pandas and Plotly

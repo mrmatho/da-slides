@@ -2,6 +2,7 @@
 layout: cover
 transition: fade
 hideInToc: false
+routeAlias: primary-data-planning
 ---
 
 # Project Management and Collecting Primary Data

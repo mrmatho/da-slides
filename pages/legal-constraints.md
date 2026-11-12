@@ -3,6 +3,7 @@ title: Legal Constraints
 layout: center
 transition: fade
 hideInToc: false
+routeAlias: privacy-legislation
 ---
 
 # Legal Constraints

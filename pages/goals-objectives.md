@@ -3,6 +3,7 @@ title: Goals and Objectives of Medium and Large Organisations
 layout: center
 transition: fade
 hideInToc: false
+routeAlias: organisation-goals
 ---
 
 # Goals and Objectives of Medium and Large Organisations

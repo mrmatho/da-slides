@@ -4,6 +4,7 @@ description: Overview of disaster recovery strategies and best practices.
 hideInToc: False
 layout: cover
 transition: fade
+routeAlias: disaster-recovery
 ---
 
 # Disaster Recovery Plans

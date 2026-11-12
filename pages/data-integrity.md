@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Characteristics of Data Integrity 
 background: https://cover.sli.dev
+routeAlias: data-integrity
 ---
 
 # Characteristics of Data Integrity

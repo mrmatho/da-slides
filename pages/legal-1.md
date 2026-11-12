@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Legal Constraints on Data Collection
 background: https://cover.sli.dev
+routeAlias: data-collection-law
 ---
 
 # Legal Constraints on Data Collection

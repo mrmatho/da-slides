@@ -1,6 +1,7 @@
 ---
 transition: slide-right
 layout: statement
+routeAlias: heathos-routines
 ---
 
 # Heathos

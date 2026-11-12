@@ -5,6 +5,7 @@ date: "2023-10-05"
 hideInToc: false
 layout: cover
 transition: fade
+routeAlias: visualisation-theory
 ---
 
 # Data Visualisations Theory

@@ -3,6 +3,7 @@ layout: cover
 transition: fade
 hideInToc: false
 background: /img/validation.webp
+routeAlias: data-validation
 ---
 
 # Validating Database and Spreadsheets

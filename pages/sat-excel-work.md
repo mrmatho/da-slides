@@ -4,6 +4,7 @@ layout: cover
 transition: fade
 hideInToc: false
 background: https://cover.sli.dev
+routeAlias: sat-spreadsheet-work
 ---
 # SAT - Spreadsheet Criterion 7
 

@@ -4,6 +4,7 @@ transition: fade
 hideInToc: false
 title: Consent 
 background: https://cover.sli.dev
+routeAlias: informed-consent
 ---
 
 # Collecting data with informed consent
