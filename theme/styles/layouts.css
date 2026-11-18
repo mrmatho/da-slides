@@ -1,22 +1,26 @@
 .slidev-layout {
+  /* Subtitle under a heading: text-secondary, not opacity (keeps 4.5:1 contrast) */
   h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+    @apply -mt-2 mb-4;
+    color: var(--gm-text-secondary);
   }
 
   p + h2, ul + h2, table + h2 {
     @apply mt-10;
   }
 
+  /* GM Default scale: h1 36px, h2 28px, h3 22px */
   h1 {
-    @apply text-4xl mb-4 -ml-[0.05em];
+    @apply mb-4 -ml-[0.05em];
+    font-size: 36px;
   }
 
   h2 {
-    @apply text-3xl;
+    font-size: 28px;
   }
 
   h3 {
-    @apply text-2xl;
+    font-size: 22px;
   }
 
   h4 {
@@ -27,12 +31,15 @@
     @apply text-base;
   }
 
+  /* Label style: 12px, weight 600, sentence case (never all caps) */
   h6 {
-    @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em];
-  }
-
-  h6:not(.opacity-100) {
-    @apply opacity-40;
+    @apply pt-1;
+    font-family: var(--gm-font-body);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: var(--gm-text-secondary);
   }
 }
 
@@ -40,8 +47,10 @@
 .slidev-layout.intro {
   @apply h-full grid;
 
+  /* GM Default display: 48px */
   h1 {
-    @apply text-6xl leading-20;
+    font-size: 48px;
+    line-height: 1.2;
   }
 }
 

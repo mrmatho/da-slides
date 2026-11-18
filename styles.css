@@ -1,82 +1,245 @@
+/*
+ * GM Default design system, applied to Slidev.
+ * Source: the "GM Default" design system artifact (tokens.json + components/bundle.css).
+ * Navy for identity, cool greys for structure, tints rather than borders for hierarchy.
+ * Use the tokens below; do not hard-code colours in slides.
+ */
 
-table td {
-    text-align: left;
-    border: 1px solid #536b53;
-    font-size: 0.9rem;
-    padding: 0;
+/* ---------- Tokens ---------- */
+
+:root {
+  /* Colour (light theme) */
+  --gm-navy: #1e3a5f;
+  --gm-surface: #ffffff;
+  --gm-surface-tint: #f1f5f9;
+  --gm-heading: #1e3a5f;
+  --gm-ink: #1f2937;
+  --gm-text-secondary: #5f6875;
+  --gm-accent: #5b6b80;
+  --gm-border: #9ca3af; /* decorative dividers only: 2.5:1 on white, never text */
+
+  /* Soft emphasis fills (project extension to GM Default). Text on each passes 4.5:1. */
+  --gm-mark-strong: #dcfce7;     /* soft green */
+  --gm-mark-em: #ffe4e6;         /* soft rose */
+  --gm-mark-link: #ffedd5;       /* soft orange */
+  --gm-mark-em-strong: #fef3c7;  /* soft amber */
+
+  /* Type */
+  --gm-font-heading: "Outfit", system-ui, sans-serif;
+  --gm-font-body: "Public Sans", system-ui, sans-serif;
+
+  /* Spacing */
+  --gm-space-1: 4px;
+  --gm-space-2: 8px;
+  --gm-space-3: 12px;
+  --gm-space-4: 16px;
+  --gm-space-6: 24px;
+  --gm-space-8: 32px;
+  --gm-space-12: 48px;
+  --gm-space-16: 64px;
+
+  /* Radius */
+  --gm-radius-sm: 4px;
+  --gm-radius-md: 8px;
+  --gm-radius-full: 9999px;
 }
 
-table th {
-    text-align: center;
-    border: 1px solid #000000;
-    background-color: #7fb393;
-    color: black;
-    line-height: 0.8rem;
-    font-weight: bold;
+html.dark {
+  --gm-surface: #1e3a5f;
+  --gm-surface-tint: #2d4570;
+  --gm-heading: #ffffff;
+  --gm-ink: #f1f5f9;
+  --gm-text-secondary: #cbd5e1;
+  --gm-accent: #aeb9ca;
+  --gm-border: #94a3b8;
+
+  --gm-mark-strong: #1f4d3a;
+  --gm-mark-em: #4a2a3f;
+  --gm-mark-link: #4d3a1f;
+  --gm-mark-em-strong: #4a4220;
+}
+
+/* ---------- Page ---------- */
+
+.slidev-layout {
+  background-color: var(--gm-surface);
+  color: var(--gm-ink);
+  font-family: var(--gm-font-body);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4 {
+  font-family: var(--gm-font-heading);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  color: var(--gm-heading);
+}
+
+/* ---------- Inline emphasis: soft tinted fills ---------- */
+
+strong,
+em,
+a:link,
+a:visited {
+  padding: 0 var(--gm-space-1);
+  border-radius: var(--gm-radius-sm);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 strong {
-    --uno: 'bg-green-300 dark:bg-green-800';
-    font-weight: bolder !important;
-    padding: 0px 4px;
-    border-radius: 5px;
-
+  font-weight: 700;
+  color: var(--gm-heading);
+  background-color: var(--gm-mark-strong);
 }
 
 em {
-    --uno: 'bg-rose-300 dark:bg-rose-700';
-    font-style: italic !important;
-    padding: 0px 4px;
-    border-radius: 3px;
+  font-style: italic;
+  color: var(--gm-ink);
+  background-color: var(--gm-mark-em);
 }
 
-a:link, a:visited {
-    --uno: 'bg-orange-200 dark:bg-orange-800 text-blue-900 dark:text-yellow';
-    border-radius: 5px;
-    padding: 0px 5px;
+em strong,
+strong em {
+  font-style: italic;
+  font-weight: 700;
+  color: var(--gm-heading);
+  background-color: var(--gm-mark-em-strong);
+  padding: 0 2px;
+}
+
+a:link,
+a:visited {
+  color: var(--gm-heading);
+  background-color: var(--gm-mark-link);
+  text-decoration: underline;
+  text-decoration-color: var(--gm-accent);
+  text-underline-offset: 3px;
+}
+
+/* No fills on emphasis inside headings: keep headings quiet */
+.slidev-layout h1 strong,
+.slidev-layout h1 em,
+.slidev-layout h2 strong,
+.slidev-layout h2 em {
+  background: none;
+  padding: 0;
 }
 
 a:hover {
-    font-weight:bold;
+  text-decoration-thickness: 2px;
 }
 
 li ul li {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
+/* ---------- Tables: tinted header, decorative dividers ---------- */
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: left;
+  background-color: var(--gm-surface-tint);
+  color: var(--gm-heading);
+  font-family: var(--gm-font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  border-bottom: 1px solid var(--gm-border);
+}
+
+table td {
+  text-align: left;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--gm-border);
+}
+
+/* ---------- Callouts (GM Default components) ---------- */
+
+/* Standard callout: tips, notes, extensions. Tint, no border. */
+.callout,
 .note {
-    --uno: 'bg-yellow-200 dark:bg-yellow-800';
-    
-    font-size: 0.95rem;
-    line-height: 0.7rem;
-    padding:5px 20px;
-    --uno: 'font-serif';
-    border-radius: 15px;
+  background: var(--gm-surface-tint);
+  color: var(--gm-ink);
+  border: none;
+  border-radius: var(--gm-radius-md);
+  padding: var(--gm-space-6);
+  font-family: var(--gm-font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
-div.note {
-    margin: 10px;
+/* Important callout: information students must not miss. Double border, no tint. */
+.callout-important {
+  background: none;
+  color: var(--gm-ink);
+  border: 2px double var(--gm-accent);
+  border-radius: var(--gm-radius-md);
+  padding: var(--gm-space-6);
+  font-family: var(--gm-font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
-em strong {
-    font-style: italic;
-    --uno: 'bg-orange-300 dark:bg-orange-800 text-black dark:text-white';
-    border-radius: 3px;
-    padding: 0px 3px;
+div.note,
+div.callout,
+div.callout-important {
+  margin: var(--gm-space-3) 0;
+}
+
+/* Small sentence-case label above a callout heading */
+.callout-label {
+  display: block;
+  font-family: var(--gm-font-body);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--gm-text-secondary);
+  margin: 0 0 var(--gm-space-2) 0;
+}
+
+.callout h2,
+.callout h3,
+.callout-important h2,
+.callout-important h3,
+.note h2,
+.note h3 {
+  margin: 0 0 var(--gm-space-3) 0;
+}
+
+.callout > :last-child,
+.callout-important > :last-child,
+.note > :last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Columns: quiet tinted panels ---------- */
+
+.col-left,
+.col-right {
+  background: var(--gm-surface-tint);
+  border-radius: var(--gm-radius-md);
+  padding: var(--gm-space-6);
+  font-size: 0.95em;
 }
 
 .col-left {
-    --uno: 'bg-sky-200 dark:bg-sky-900';
-    border-radius: 20px;
-    padding: 20px;
-    margin-right: 10px;
-    font-size: 0.95em;
+  margin-right: var(--gm-space-2);
 }
 
 .col-right {
-    --uno: 'bg-indigo-200 dark:bg-indigo-900';
-    border-radius: 20px;
-    padding: 20px;
-    margin-left: 10px;
-    font-size: 0.95em;
+  margin-left: var(--gm-space-2);
+}
+
+/* ---------- Utility ---------- */
+
+.text-secondary {
+  color: var(--gm-text-secondary);
 }

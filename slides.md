@@ -7,9 +7,10 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
 fonts:
-  sans: Red Hat Display
-  serif: Domine
+  # GM Default: Public Sans for body, Outfit for headings (applied in styles.css)
+  sans: Public Sans,Outfit
   mono: Source Code Pro
+  weights: '400,600,700'
 
 defaults:
   layout: center
