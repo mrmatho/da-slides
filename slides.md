@@ -30,177 +30,177 @@ zoom: 0.85
 <Toc minDept=1 maxDepth=1 columns=3 />
 
 ---
-src: ./pages/heathos.md
+src: ./pages/01_heathos.md
 hide: false
 ---
 
 ---
-src: ./pages/databases-1.md
+src: ./pages/02_databases-1.md
 hide: false
 ---
 
 ---
-src: ./pages/databases-2.md
+src: ./pages/03_databases-2.md
 hide: false
 ---
 
 ---
-src: ./pages/spreadsheets-1.md
+src: ./pages/04_spreadsheets-1.md
 hide: false
 ---
 
 ---
-src: ./pages/spreadsheets-2.md
+src: ./pages/05_spreadsheets-2.md
 hide: false
 ---
 
 ---
-src: ./pages/spreadsheets-3.md
+src: ./pages/06_spreadsheets-3.md
 hide: false
 ---
 
 ---
-src: ./pages/testing-spread-and-databases.md
+src: ./pages/07_testing-spread-and-databases.md
 hide: false
 ---
 
 ---
-src: ./pages/validating-db-spreadsheet.md
+src: ./pages/08_validating-db-spreadsheet.md
 hide: false
 ---
 
 ---
-src: ./pages/data-distribution-shape.md
+src: ./pages/09_data-distribution-shape.md
 hide: false
 ---
 
 ---
-src: ./pages/ai-in-analytics.md
+src: ./pages/10_ai-in-analytics.md
 hide: false
 ---
 
 ---
-src: ./pages/data-visualisations-streamlit.md
+src: ./pages/11_data-visualisations-streamlit.md
 hide: false
 ---
 
 ---
-src: ./pages/data-visualisations-theory.md
+src: ./pages/12_data-visualisations-theory.md
 hide: false
 ---
 
 ---
-src: ./pages/research-questions-1.md
+src: ./pages/13_research-questions-1.md
 hide: false
 ---
 
 ---
-src: ./pages/project-management-primary-data.md
+src: ./pages/14_project-management-primary-data.md
 hide: false
 ---
 
 ---
-src: ./pages/analysis-documentation.md
+src: ./pages/15_analysis-documentation.md
 hide: false
 ---
 
 ---
-src: ./pages/data-integrity.md
+src: ./pages/16_data-integrity.md
 hide: false
 ---
 
 ---
-src: ./pages/consent.md
+src: ./pages/17_consent.md
 hide: false
 ---
 
 ---
-src: ./pages/data-management-strategy.md
+src: ./pages/18_data-management-strategy.md
 hide: false
 ---
 
 ---
-src: ./pages/legal-1.md
+src: ./pages/19_legal-1.md
 hide: false
 ---
 
 ---
-src: ./pages/design-ideas.md
+src: ./pages/20_design-ideas.md
 hide: false
 ---
 
 ---
-src: ./pages/evaluation-criteria.md
+src: ./pages/21_evaluation-criteria.md
 hide: false
 ---
 
 ---
-src: ./pages/design-principles.md
+src: ./pages/22_design-principles.md
 hide: false
 ---
 
 ---
-src: ./pages/unit-4-intro.md
+src: ./pages/23_unit-4-intro.md
 hide: false
 ---
 
 ---
-src: ./pages/sat-db-work.md
+src: ./pages/24_sat-db-work.md
 hide: false
 ---
 
 ---
-src: ./pages/sat-excel-work.md
+src: ./pages/25_sat-excel-work.md
 hide: false
 ---
 
 ---
-src: ./pages/streamlit-review.md
+src: ./pages/26_streamlit-review.md
 hide: false
 ---
 
 ---
-src: ./pages/evaluation.md
+src: ./pages/27_evaluation.md
 hide: false
 ---
 
 ---
-src: ./pages/legal-constraints.md
+src: ./pages/28_legal-constraints.md
 hide: false
 ---
 
 ---
-src: ./pages/legal-notifiable.md
+src: ./pages/29_legal-notifiable.md
 hide: false
 ---
 
 ---
-src: ./pages/goals-objectives.md
+src: ./pages/30_goals-objectives.md
 hide: false
 ---
 
 ---
-src: ./pages/disaster-recovery.md
+src: ./pages/31_disaster-recovery.md
 hide: false
 ---
 
 ---
-src: ./pages/emerging-trends.md
+src: ./pages/32_emerging-trends.md
 hide: false
 ---
 
 ---
-src: ./pages/evaluating-security.md
+src: ./pages/33_evaluating-security.md
 hide: false
 ---
 
 ---
-src: ./pages/ethics.md
+src: ./pages/34_ethics.md
 hide: false
 ---
 
 ---
-src: ./pages/encryption.md
+src: ./pages/35_encryption.md
 hide: false
 ---
 
