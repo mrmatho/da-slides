@@ -3,14 +3,13 @@
 theme: ./theme
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Data Analytics Slides
 fonts:
   # GM Default: Public Sans for body, Outfit for headings (applied in styles.css)
   sans: Public Sans,Outfit
   mono: Source Code Pro
-  weights: '400,600,700'
+  weights: '400,600,800'
 
 defaults:
   layout: center

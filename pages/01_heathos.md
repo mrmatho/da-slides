@@ -10,7 +10,6 @@ routeAlias: heathos-routines
 
 ## What are you required to bring to class?
 
-
 ---
 transition: slide-down
 layout: statement
