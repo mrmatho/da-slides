@@ -29,6 +29,11 @@ zoom: 0.85
 <Toc minDept=1 maxDepth=1 columns=3 />
 
 ---
+src: ./pages/00_stepup.md
+hide: false
+---
+
+---
 src: ./pages/01_heathos.md
 hide: false
 ---
