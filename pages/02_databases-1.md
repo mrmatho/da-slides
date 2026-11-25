@@ -216,16 +216,18 @@ would not return any results, because the Ballroom does not meet the first condi
 
 ---
 layout: two-cols-header
+zoom: 0.91
 ---
 
 # SQL Basics - Sorting results
 
 When working with many rows of data, it can be useful to sort the results of a query. We can do this using the `ORDER BY` clause.
 
-ASC - ascending order (smallest to largest, A-Z)
-DESC - descending order (largest to smallest, Z-A)
+> `ASC` - ascending order (smallest to largest, A-Z) `DESC` - descending order (largest to smallest, Z-A)
 
 ::left::
+
+### Sorting results
 
 ```sql
 SELECT column1, column2
@@ -247,7 +249,7 @@ Returns all the rooms, sorted by capacity from largest to smallest.
 
 ::right::
 
-## Limiting results
+### Limiting results
 
 We can also limit the number of rows returned by a query using the `LIMIT` clause.
 
